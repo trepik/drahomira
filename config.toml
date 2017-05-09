@@ -1,0 +1,234 @@
+# Page settings
+
+baseurl = "https://trepik.github.io/drepikova/"
+languageCode = "sk"
+defaultContentLanguage = "sk"
+title = "Životopis"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Môj kariérny profil"
+    author = "Drahomíra Repíková"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles-3.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Drahomíra Repíková"
+        tagline = "Magistra Farmácie"
+        avatar = "profile.jpg"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "location"
+        icon = "fa-home"
+        url = "https://goo.gl/maps/6gFmW6i9JaC2"
+        title = "Bratislava, Slovakia"
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: dacarepik@gmail.com"
+        title = "dacarepik@gmail.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+421903588990"
+        title = "+421 903 588 990"
+
+#        [[params.contact.list]]
+#        class = "website"
+#        icon = "fa-globe"
+#        url = "//portfoliosite.com"
+#        title = "portfoliosite.com"
+
+#        [[params.contact.list]]
+#        class = "github"
+#        icon = "fa-github"
+#        url = "//github.com/trepik"
+#        title = "github.com/trepik"
+
+    # Languages section
+    [params.languages]
+        enable = true
+        title = "Languages"
+
+        [[params.languages.list]]
+        language = "Český"
+        level = "Materský"
+
+        [[params.languages.list]]
+        language = "Slovenský"
+        level = "Expert"
+
+        [[params.languages.list]]
+        language = "Anglický"
+        level = "Mierne pokročilý"
+
+        [[params.languages.list]]
+        language = "Ruský"
+        level = "Pasívne"
+
+        [[params.languages.list]]
+        language = "Nemecký"
+        level = "Pasívne"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Záľuby"
+
+        [[params.interests.list]]
+        interest = "Príroda, ľahká turistika"
+
+        [[params.interests.list]]
+        interest = "Tai chi, bicykel, plávanie"
+
+        [[params.interests.list]]
+        interest = "Jazzová hudba, umenie"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+#    [params.summary]
+#        enable = true
+#        icon = "fa-user"
+#        title = "O mne"
+#        summary = "Mám rada prírodu a turistiku. Zo športov sa venujem Taj-chi (3 roky), takisto rada bicyklujem, lyžujem a plávam. Počúvam jazzovú muziku, do tanca zase latino muziku. Pri cestovaní si so záujmom pozriem galérie obrazov, či iné umenie. Sledujem zaujímavé, farmaceutické, či medicínske štúdie v angličtine."
+
+    # Education section
+    [params.education]
+        enable = true
+        icon = "fa-graduation-cap"
+        title = "Vzdelanie"
+
+        [[params.education.list]]
+        degree = "English as the second language"
+        college = "University of Tennessee Chattanooga"
+        dates = "2014 - 2016"
+
+        [[params.education.list]]
+        degree = "Atestácia I. stupňa lekárenstvo"
+        college = "postgraduálne štúdium"
+        dates = "1997"
+
+        [[params.education.list]]
+        degree = "Základy homeopatie"
+        college = "Boiron"
+        dates = "1996"
+
+        [[params.education.list]]
+        degree = "Kurz nemeckého jazyka (mierne pokročilý)"
+        college = "Jazyková škola"
+        dates = "1991 - 1992"
+
+        [[params.education.list]]
+        degree = "Magister všeobecnej farmácie"
+        college = "Komenského Univerzita Bratislava"
+        dates = "1987 - 1991"
+
+        [[params.education.list]]
+        degree = "Farmaceutický laborant"
+        college = "Stredná zdravotná škola Brno"
+        dates = "1983 - 1987"
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Pracovné skúsenosti"
+
+        [[params.jobs.list]]
+        position = "Lekárnik, Farmaceut"
+        dates = "2/2017 - doteraz"
+        company = "Lekareň pri Budúcnosti, Bratislava"
+        details = "Náplň práce: expedícia liekov na lekársky predpis a bez lekárskeho predpisu, objednávanie liekov a doplnkového sortimentu, spracovávanie lekárskych predpisov pre poisťovňu"
+
+        [[params.jobs.list]]
+        position = "Lekárnik, Farmaceut"
+        dates = "8/2016 - 2/2017"
+        company = "Lekareň sv. Tadeáša, Pezinok"
+        details = "Náplň práce: expedícia liekov na lekársky predpis a bez lekárskeho predpisu, objednávanie liekov a doplnkového sortimentu, spracovávanie lekárskych predpisov pre poisťovňu"
+
+        [[params.jobs.list]]
+        position = "Vedúca prevádzky"
+        dates = "2/2011 - 7/2013"
+        company = "Lekareň Glavica, Cursor s.r.o., Bratislava"
+        details = "Náplň práce: príprava dokumentácie a otvorenie novej prevádzky, riadenie prevádzky, budovanie kontaktov, spolupráca s partnermi predaja kozmetiky a doplnkového tovaru, hlásenia a štatistiky"
+
+        [[params.jobs.list]]
+        position = "Vedúca prevádzky"
+        dates = "9/2006 - 1/2011"
+        company = "Lekáreň Signum, Remedypharm, Bratislava"
+        details = "Náplň práce: riadenie sedem-dňovej prevádzky, objednávanie liekov, IPL príprava, príprava a zabezpečenie prevádzky - služby, komunikácia s obchodnými partnermi, hlásenia a štatistiky"
+
+        [[params.jobs.list]]
+        position = "Lekárnik, Farmaceut"
+        dates = "1996 - 2004"
+        company = "Lekareň Media, Bratislava"
+        details = "Náplň práce: expedícia liekov na lekársky predpis a bez lekárskeho predpisu, objednávanie liekov a doplnkového sortimentu, spracovávanie lekárskych predpisov pre poisťovňu"
+
+    # Projects section
+#    [params.projects]
+#        enable = false
+#        icon = "fa-archive"
+#        title = "Projects"
+#        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+#        [[params.projects.list]]
+#        title = "Maxpoweleague"
+#        url = "https://github.com/aerohub/hugrid"
+#        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Znalosti a Zručnosti"
+
+        [[params.skills.list]]
+        skill = "Vodičský preukaz (B)"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "MS Word"
+        level = "25%"
+
+        [[params.skills.list]]
+        skill = "MS Excel"
+        level = "25%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = ""

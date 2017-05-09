@@ -1,0 +1,14 @@
+- id: education
+  translation: Vzdelanie 
+- id: experiences
+  translation: Pracovné skúsenosti
+- id: interests
+  translation: Záľuby
+- id: language
+  translation: Jazyky
+- id: projects
+  translation: Projekty
+- id: skills
+  translation: Zručnosti a znalosti
+- id: summary
+  translation: O mne
