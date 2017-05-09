@@ -25,7 +25,7 @@ disable404 = true
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles-3.css"
+    styles = "styles-6.css"
 
 # Sidebar sections
 
@@ -113,11 +113,11 @@ disable404 = true
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
 
     # Summary section
-#    [params.summary]
-#        enable = true
-#        icon = "fa-user"
-#        title = "O mne"
-#        summary = "Mám rada prírodu a turistiku. Zo športov sa venujem Taj-chi (3 roky), takisto rada bicyklujem, lyžujem a plávam. Počúvam jazzovú muziku, do tanca zase latino muziku. Pri cestovaní si so záujmom pozriem galérie obrazov, či iné umenie. Sledujem zaujímavé, farmaceutické, či medicínske štúdie v angličtine."
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "O mne"
+        summary = "V prom rade som pozitívne zmýšľajúci človek. Rada pracujem s ľuďmi a som flexibilná. Skúsenosť života v cudzích krajinách mi pomohla získať potrebný nadhľad, ale aj podporila odvahu začať úplne nové činnosti, či projekty. Viem pracovať aj pod stresom a hľadám možnosti kreaktivne zvládnuť situáciu. Som organizačný typ, rada pripravujem akcie a spájam ľudí s rovnakými záujmami alebo názormi. Mám rada prírodu a turistiku. Zo športov sa venujem Taj-chi (3 roky), takisto rada bicyklujem, lyžujem a plávam. Relaxujem pri jazzovej hudbe, do tanca volím latino muziku. Pri cestovaní si so záujmom pozriem galérie obrazov, či iné umenie. Sledujem zaujímavé, farmaceutické, či medicínske štúdie v angličtine."
 
     # Education section
     [params.education]
