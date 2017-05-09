@@ -117,7 +117,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "O mne"
-        summary = "V prom rade som pozitívne zmýšľajúci človek. Rada pracujem s ľuďmi a som flexibilná. Skúsenosť života v cudzích krajinách mi pomohla získať potrebný nadhľad, ale aj podporila odvahu začať úplne nové činnosti, či projekty. Viem pracovať aj pod stresom a hľadám možnosti kreatívne zvládnuť situáciu. Som organizačný typ, rada pripravujem akcie a spájam ľudí s rovnakými záujmami alebo názormi. Mám rada prírodu a turistiku. Zo športov sa venujem Tai Chi (3 roky), takisto rada bicyklujem, lyžujem a plávam. Relaxujem pri jazzovej hudbe, do tanca volím latino muziku. Pri cestovaní si so záujmom pozriem galérie obrazov, či iné umenie. Sledujem zaujímavé, farmaceutické, či medicínske štúdie v angličtine."
+        summary = "V prvom rade som pozitívne zmýšľajúci človek. Rada pracujem s ľuďmi a som flexibilná. Skúsenosť života v cudzích krajinách mi pomohla získať potrebný nadhľad, ale aj podporila odvahu začať úplne nové činnosti, či projekty. Viem pracovať aj pod stresom a hľadám možnosti kreatívne zvládnuť situáciu. Som organizačný typ, rada pripravujem akcie a spájam ľudí s rovnakými záujmami alebo názormi. Mám rada prírodu a turistiku. Zo športov sa venujem Tai Chi (3 roky), takisto rada bicyklujem, lyžujem a plávam. Relaxujem pri jazzovej hudbe, do tanca volím latino muziku. Pri cestovaní si so záujmom pozriem galérie obrazov, či iné umenie. Sledujem zaujímavé, farmaceutické, či medicínske štúdie v angličtine."
 
     # Education section
     [params.education]
