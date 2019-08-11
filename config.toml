@@ -3,7 +3,6 @@
 baseurl = "https://repik.sk/drahomira/"
 languageCode = "sk"
 defaultContentLanguage = "sk"
-title = "Životopis"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
@@ -15,6 +14,7 @@ disable404 = true
 [params]
 
 # Meta
+    title = "Životopis"
     description = "Môj kariérny profil"
     author = "Drahomíra Repíková"
 
@@ -117,13 +117,28 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "O mne"
-        summary = "V prvom rade som pozitívne zmýšľajúci človek. Rada pracujem s ľuďmi a som flexibilná. Skúsenosť života v cudzích krajinách mi pomohla získať potrebný nadhľad, ale aj podporila odvahu začať úplne nové činnosti, či projekty. Viem pracovať aj pod stresom a hľadám možnosti kreatívne zvládnuť situáciu. Som organizačný typ, rada pripravujem akcie a spájam ľudí s rovnakými záujmami alebo názormi. Mám rada prírodu a turistiku. Zo športov sa venujem Tai Chi (3 roky), takisto rada bicyklujem, lyžujem a plávam. Relaxujem pri jazzovej hudbe, do tanca volím latino muziku. Pri cestovaní si so záujmom pozriem galérie obrazov, či iné umenie. Sledujem zaujímavé, farmaceutické, či medicínske štúdie v angličtine."
+        summary = "V prvom rade som pozitívne zmýšľajúci človek. Rada pracujem s ľuďmi a som flexibilná. Skúsenosť života v cudzích krajinách mi pomohla získať potrebný nadhľad, ale aj podporila odvahu začať úplne nové činnosti, či projekty. Viem pracovať aj pod stresom a hľadám možnosti kreatívne zvládnuť situáciu. Som organizačný typ, rada pripravujem akcie a spájam ľudí s rovnakými záujmami alebo názormi. Mám rada prírodu a turistiku. Zo športov sa venujem Tai Chi (3 roky), takisto rada bicyklujem, lyžujem a plávam. Relaxujem pri jazzovej hudbe alebo inej forme umenia. Sledujem zaujímavé, farmaceutické, či medicínske štúdie v angličtine."
 
     # Education section
     [params.education]
         enable = true
         icon = "fa-graduation-cap"
         title = "Vzdelanie"
+
+        [[params.education.list]]
+        degree = "Medicinální houby"
+        college = "Mycomedica CZ"
+        dates = "2019"
+
+        [[params.education.list]]
+        degree = "Praktická aromaterapie pre každého"
+        college = "Akademie Nobilis Tilia CZ"
+        dates = "2019"
+
+        [[params.education.list]]
+        degree = "Kurzy nemeckého jazyka"
+        college = "???"
+        dates = "2016 - 2018"
 
         [[params.education.list]]
         degree = "English as the second language"
@@ -162,8 +177,14 @@ disable404 = true
         title = "Pracovné skúsenosti"
 
         [[params.jobs.list]]
+        position = "Lekárnik, Farmaceut, zástupca vedúceho"
+        dates = "??? - doteraz"
+        company = "Lekareň pri nemocnici APOTHEKA, Bratislava"
+        details = "Náplň práce: expedícia e-receptov, výdaj na žiadanky do nemocnice, komunikácia s pracoviskami nemocnice, expedovanie liekov z klinickej štúdie, IPL príprava, spracovávanie e-receptov do poisťovne"
+
+        [[params.jobs.list]]
         position = "Lekárnik, Farmaceut"
-        dates = "2/2017 - doteraz"
+        dates = "2/2017 - ???"
         company = "Lekareň pri Budúcnosti, Bratislava"
         details = "Náplň práce: expedícia liekov na lekársky predpis a bez lekárskeho predpisu, objednávanie liekov a doplnkového sortimentu, spracovávanie lekárskych predpisov pre poisťovňu"
 
