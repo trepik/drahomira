@@ -137,7 +137,7 @@ disable404 = true
 
         [[params.education.list]]
         degree = "Kurzy nemeckého jazyka"
-        college = "???"
+        college = "Volis academy"
         dates = "2016 - 2018"
 
         [[params.education.list]]
@@ -178,13 +178,13 @@ disable404 = true
 
         [[params.jobs.list]]
         position = "Lekárnik, Farmaceut, zástupca vedúceho"
-        dates = "??? - doteraz"
+        dates = "3/2018 - doteraz"
         company = "Lekareň pri nemocnici APOTHEKA, Bratislava"
         details = "Náplň práce: expedícia e-receptov, výdaj na žiadanky do nemocnice, komunikácia s pracoviskami nemocnice, expedovanie liekov z klinickej štúdie, IPL príprava, spracovávanie e-receptov do poisťovne"
 
         [[params.jobs.list]]
         position = "Lekárnik, Farmaceut"
-        dates = "2/2017 - ???"
+        dates = "2/2017 - 2/2018"
         company = "Lekareň pri Budúcnosti, Bratislava"
         details = "Náplň práce: expedícia liekov na lekársky predpis a bez lekárskeho predpisu, objednávanie liekov a doplnkového sortimentu, spracovávanie lekárskych predpisov pre poisťovňu"
 
